@@ -24,6 +24,7 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
 
 # Je plan
 
+
 <details open>
   <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
 
