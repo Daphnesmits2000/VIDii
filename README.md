@@ -162,8 +162,9 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://imagenesparapeques.com/imagenes-de-mickey-y-minnie/#more-2058
+2. https://www.pinclipart.com/maxpin/hThwhT/
+3. https://debatesjungle.fandom.com/wiki/Mickey_Mouse_(Paul_Rudish)
+
 
 </details>
