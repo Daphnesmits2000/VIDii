@@ -1,79 +1,126 @@
 // JavaScript Document
 console.log("Howdy!");
 
+// MICKEY's en buttons klikbaar maken, geholpen door Milan
+
+var mickey1 = document.querySelector(".mickey1");
+var mickey2 = document.querySelector(".mickey2");
+var mickey3 = document.querySelector(".mickey3");
+var mickey4 = document.querySelector(".mickey4");
 
 
+var kraam1 = document.querySelector(".kraam1");
+var hotdogButton1 = document.querySelector(".Hotdog1");
+var kraam2 = document.querySelector(".kraam2");
+var hotdogButton2 = document.querySelector(".Hotdog2");
+var kraam3 = document.querySelector(".kraam3");
+var hotdogButton3 = document.querySelector(".Hotdog3");
+var kraam4 = document.querySelector(".kraam4");
+var hotdogButton4 = document.querySelector(".Hotdog4");
 
 
+var background1 = document.querySelector(".gif1");
+var background2 = document.querySelector(".achtergrond2");
+var background3 = document.querySelector(".achtergrond3");
+var background4 = document.querySelector(".achtergrond4");
 
-var config = {
-    timeToShowSlide: 3000,
-    timeToWaitBeforeStartingAnimation: 3000,
-    timeToWaitBeforeStoppingAnimation: 7000
-}
+var speechBubble = document.querySelector(".bubble");
 
-var noise = (function () {
-"use strict";
-var fragment = document.createDocumentFragment();
-var audio = fragment.appendChild(document.createElement('audio'));
-audio.setAttribute("loop", true);
-var source = (document.createElement('source'));
-source.setAttribute("src", "http://www.woudziel.nl/githubdemo/oldMovieEffectSlideDeck/sound/16997__incarnadine__modulated-radio-static-modified" + ".mp3");
-source.setAttribute("type", "audio/mpeg");
-var source2 = (document.createElement('source'));
-//    source2.setAttribute("src", args.path + ".ogg");
-source2.setAttribute("src", "sound/16997__incarnadine__modulated-radio-static-modified" + ".ogg");
-source2.setAttribute("type", "audio/ogg");
-audio.appendChild(source);
-audio.appendChild(source2);
-document.getElementsByTagName('body').item(0).appendChild(fragment);
-audio.volume = 0.5;
+hotdogButton1.addEventListener("click", function () {
+    mickey1.classList.remove("verdwijnen")
+    mickey2.classList.add("verdwijnen")
+    mickey3.classList.add("verdwijnen")
+    mickey4.classList.add("verdwijnen")
 
-var play = function () {
-    audio.play();
-};
-var stop = function () {
-    audio.pause();
-    if (audio.currentTime !== 0) {
-        audio.currentTime = 0;
-    }
-};
+    kraam1.classList.remove("verdwijnen")
+    kraam2.classList.add("verdwijnen")
+    kraam3.classList.add("verdwijnen")
+    kraam4.classList.add("verdwijnen")
 
-return {
-    play: play,
-    stop: stop
-};
+    document.body.classList.add("j1929")
+    document.body.classList.remove("j1935")
+    document.body.classList.remove("j1953")
+    document.body.classList.remove("j2004")
 
-}());
+    speechBubble.classList.add("verdwijnen")
+    speechBubble.textContent = "Tijdens Mickey zijn negende film, onthulde hij dat hij van Hotdogs houdt en deed zelfs een hotdogdans. Hij liet ons pas in deze film zien dat hij woorden kon uiten.";
+})
+
+hotdogButton2.addEventListener("click", function () {
+    mickey1.classList.add("verdwijnen")
+    mickey2.classList.remove("verdwijnen")
+    mickey3.classList.add("verdwijnen")
+    mickey4.classList.add("verdwijnen")
+
+    kraam1.classList.add("verdwijnen")
+    kraam2.classList.remove("verdwijnen")
+    kraam3.classList.add("verdwijnen")
+    kraam4.classList.add("verdwijnen")
+
+    document.body.classList.remove("j1929")
+    document.body.classList.add("j1935")
+    document.body.classList.remove("j1953")
+    document.body.classList.remove("j2004")
+
+    speechBubble.classList.add("verdwijnen")
+    speechBubble.textContent = "Met technologische vooruitgang worden kleurenfilms realiteit. Hierdoor zien we Mickey voor het eerst in kleur.";
+})
+
+hotdogButton3.addEventListener("click", function () {
+    mickey1.classList.add("verdwijnen")
+    mickey2.classList.add("verdwijnen")
+    mickey3.classList.remove("verdwijnen")
+    mickey4.classList.add("verdwijnen")
+
+    kraam1.classList.add("verdwijnen")
+    kraam2.classList.add("verdwijnen")
+    kraam3.classList.remove("verdwijnen")
+    kraam4.classList.add("verdwijnen")
+
+    document.body.classList.remove("j1929")
+    document.body.classList.remove("j1935")
+    document.body.classList.add("j1953")
+    document.body.classList.remove("j2004")
+
+    speechBubble.classList.add("verdwijnen")
+    speechBubble.textContent = "Mickey toont ons een unieke verschijning met sportieve wenkbrauwen, iets wat we niet meer terug zullen zien.";
+})
+
+hotdogButton4.addEventListener("click", function () {
+    mickey1.classList.add("verdwijnen")
+    mickey2.classList.add("verdwijnen")
+    mickey3.classList.add("verdwijnen")
+    mickey4.classList.remove("verdwijnen")
+
+    kraam1.classList.add("verdwijnen")
+    kraam2.classList.add("verdwijnen")
+    kraam3.classList.add("verdwijnen")
+    kraam4.classList.remove("verdwijnen")
+
+    document.body.classList.remove("j1929")
+    document.body.classList.remove("j1935")
+    document.body.classList.remove("j1953")
+    document.body.classList.add("j2004")
+
+    speechBubble.classList.add("verdwijnen")
+    speechBubble.textContent = "Met de komst van CGI laten Mickey en zijn vrienden ons een nieuw 3D-uiterlijk zien.";
+})
 
 
-var slideChanger = function (args) {
-"use strict";
-var allSlides = document.querySelectorAll("div");
+mickey1.addEventListener("click", function () {
+    speechBubble.classList.toggle("verdwijnen")
+});
 
-var i = 0;
+mickey2.addEventListener("click", function () {
+    speechBubble.classList.toggle("verdwijnen")
+});
 
-for (var j = 0; j < allSlides.length; j++) {
-    allSlides[j].style.display = 'none';
-}
+mickey3.addEventListener("click", function () {
+    speechBubble.classList.toggle("verdwijnen")
+});
 
-function stopAnimation() {
-    document.body.className = "";
-    noise.stop();
-}
+mickey4.addEventListener("click", function () {
+    speechBubble.classList.toggle("verdwijnen")
+});
 
-setTimeout(k, args.timeToWaitBeforeStartingAnimation);
-function k() {
-    if (i < allSlides.length) {
-        allSlides[i].style.display = "block";
-        i++;
-        setTimeout(k, args.timeToShowSlide);
-    } else {
 
-        setTimeout(stopAnimation, args.timeToWaitBeforeStoppingAnimation); // stop animation
-    }
-}
-};
-
-noise.play();
-slideChanger(config);
