@@ -54,7 +54,7 @@ Mijn startniveau is blauw. Voor mij is coderen geheel nieuw en heb ik er moeite 
   De oplossing voor dit advies was om voor elk jaartal een bijpassende achtergrond te zoeken. Zo heb ik in 1929 een 'Old Movie' setting gebruikt met behulp van een gif. In het jaar 1935 een kleur setting, maar nog niet gedetailleerd, 1953, ook kleur en wat specifieker en als laatste 2004 een 3D achtergrond. 
 
 <img src="https://78.media.tumblr.com/tumblr_m9qrir9yjM1ruxnlh.gif" width="375px" alt="gif1">
-<img src="images/achtergrond2.jpg" width="375px" alt="achtergrond2">
+
 <img src="images/achtergrond3.jpg" width="375px" alt="achtergrond3">
 <img src="images/achtergrond4.jpg" width="375px" alt="achtergrond4">
 
