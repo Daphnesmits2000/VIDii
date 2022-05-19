@@ -56,7 +56,8 @@ Mijn startniveau is blauw. Voor mij is coderen geheel nieuw en heb ik er moeite 
 <img src="https://78.media.tumblr.com/tumblr_m9qrir9yjM1ruxnlh.gif" width="375px" alt="gif1">
 <img src="images/achtergrond2.jpg" width="375px" alt="achtergrond2">
 <img src="images/achtergrond3.jpg" width="375px" alt="achtergrond3">
-<img src="images/achtergrond4.jpg" width="375px" alt="achtergrond4">
+
+
 
 
   ### Bevinding 3:
