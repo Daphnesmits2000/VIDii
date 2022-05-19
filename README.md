@@ -56,29 +56,29 @@ Mijn startniveau is blauw. Voor mij is coderen geheel nieuw en heb ik er moeite 
 <img src="https://78.media.tumblr.com/tumblr_m9qrir9yjM1ruxnlh.gif" width="375px" alt="gif1">
 <img src="images/achtergrond2.jpg" width="375px" alt="achtergrond2">
 <img src="images/achtergrond3.jpg" width="375px" alt="achtergrond3">
-
+<img src="images/achtergrond4.jpg" width="375px" alt="achtergrond4">
 
 
 
   ### Bevinding 3:
-  Het handje op de schets met een 'I' erin zou informatie moeten geven, een idee was om op Mickey te klikken en zo informatie te laten zien in plaats van het hanje. 
+  Het handje op de schets met een 'I' erin zou informatie moeten geven, een idee was om op Mickey te klikken en zo informatie te laten zien in plaats van   het hanje. 
  
   #### oplossing:
-  Door Mickey een hover te geven en een 'talk bubble' eraan te linken weet de kijker dat Mickey klikbaar is. Wanneer de kijker klikt op Mickey zal er informatie tevoorschijn komen.
+  Door Mickey een hover te geven en een 'talk bubble' eraan te linken weet de kijker dat Mickey klikbaar is. Wanneer de kijker klikt op Mickey zal er   informatie tevoorschijn komen.
 
    <img src="readme-images/bevinding3.png" width="375px" alt="bevinding3">
 
    ### Bevinding 4:
-   Een tip van Yarre was om aan een landingspagina te denken. Hij zei dat het misschien leuk was om de kar in het beeld te laten rollen tot aan het midden (nog zonder Mickey), zodat vanaf hier de kijker een jaargetijde kiezen. Zo heb je een soort start scene. 
+   Een tip van Yarre was om aan een landingspagina te denken. Hij zei dat het misschien leuk was om de kar in het beeld te laten rollen tot aan het midden    (nog zonder Mickey), zodat vanaf hier de kijker een jaargetijde kiezen. Zo heb je een soort start scene. 
  
   #### oplossing:
-  Hoewel ik dit een goed idee vond en ik me er in kon vinden heb ik ervoor gekozen om dit niet toe te passen, omdat ik de bovenstaande bevindingen voorrang vond hebben. Wanneer ik meer tijd zou hebben had ik hier graag nog wat aandacht aan besteed. 
+  Hoewel ik dit een goed idee vond en ik me er in kon vinden heb ik ervoor gekozen om dit niet toe te passen, omdat ik de bovenstaande bevindingen          voorrang vond hebben. Wanneer ik meer tijd zou hebben had ik hier graag nog wat aandacht aan besteed. 
 
    ### Bevinding 5:
   Omdat Mickey van Hotdogs houdt is het misschien leuk om er een audio aan toe te voegen als Mickey in komt springen en zegt 'Hotdogs'.
  
   #### oplossing:
-  Aan deze bevinding was ik begonnen, maar helaas kon ik niet per jaargetijd een stem van ickey mouse vinden. Wel heb ik eraan gedacht om een audio fragment te gebruiken, maar uiteindelijk niet toegepast.
+  Aan deze bevinding was ik begonnen, maar helaas kon ik niet per jaargetijd een stem van ickey mouse vinden. Wel heb ik eraan gedacht om een audio   fragment te gebruiken, maar uiteindelijk niet toegepast.
 
 </details>
 
