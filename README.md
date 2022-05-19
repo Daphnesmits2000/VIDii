@@ -93,18 +93,18 @@ Mijn startniveau is blauw. Voor mij is coderen geheel nieuw en heb ik er moeite 
   Interactieve elementen (links, buttons en inputs) kunnen met het toetsenbord (tab) nog niet geselecteerd worden.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  De elementen kunnen met tab geselecteerd worden, maar helaas krijg ik het niet voor elkaar dat het met enter of soatie geactiveerd word. In het vervolg moet ik direct aanpassen nadat iemand dit als feedback geeft. Op deze manier kan k nog om hulp vragen.
 
   ### Bevinding 2:
   De states van interactieve elementen passen nog niet bij het onderwerp.
 
   #### oplossing:
-  De states heb ik bij zowel de Hotdogs als Mickey, de klikbare elementen, toegepast. De state die ik bij beide heb toegepast is 'hover'.  Op deze manier ziet de kijker wanneer hij/zij over een element gaat wat wel of niet klikbaar is. 
+  De states heb ik bij zowel de Hotdogs als Mickey, de klikbare elementen, toegepast. De state die ik bij beide heb toegepast is 'hover'.  Op deze manier ziet de kijker wanneer hij/zij over een element gaat wat wel of niet klikbaar is.
 
   <img src="readme-images/states.png" width="375px" alt="states">
 
   ### Bevinding 3:
-  CSS custom properties worden gebruikt nog niet ingezet.
+  CSS custom properties worden nog niet ingezet.
 
   #### oplossing:
   De CSS custom properties heb ik overal in CSS toegepast
@@ -159,6 +159,21 @@ Mijn startniveau is blauw. Voor mij is coderen geheel nieuw en heb ik er moeite 
   #### oplossing:
   De spreekwolk heb ik aangepast door de waardes bij 'left' aan te passen en vw eraan toe te voegen.
 
+  ### Bevinding 4:
+  De cursor van de interface was niet gekoppeld aan de style van de interface
+
+  #### oplossing:
+  Om het meer een geheel te maken heb ik de cursor van een vingertje naar 'Mickey Mouse' veranderd. 
+
+  ### Bevinding 5:
+  De states 'hovers' van Mickey waren overal zwart/grijs, omdat Mickey veranderd in kleur, pas het niet bij de sfeer.
+
+  #### oplossing:
+  De states 'hovers' van de Mickey's heb ik zo aangepast dat ze ook bij de Mickey passen. Zo heb ik de Mickey van 1929 een zwart/grijze hover gegeven, en de rest de kleuren rood en geel.
+
+  <img src="readme-images/hover1.png" width="375px" alt="hover1">
+  <img src="readme-images/hover2.png" width="375px" alt="hover2">
+
 </details>
 
 
@@ -180,6 +195,10 @@ Mijn startniveau is blauw. Voor mij is coderen geheel nieuw en heb ik er moeite 
   Van niets naar iets, hoewel ik tijdens het vak webtypografie kennis heb mogen maken met coderen leek het alsof ik nog niks wist toen ik begon aan het vak interface en interactie. Op het begin zat ik echt tegen dit vak op, maar laat ik eerlijk zijn, uiteindelijk met veel hulp van Sanne 't Hooft en medestudenten ben ik blij met mijn eindresultaat en waar ik nu sta. 
 
   Ik kan zeggen dat ik de afgelopen twee weken veel heb geleerd, maar dat het ook veel informatie was in een keer. Hierdoor zijn sommige dingen bij gebleven en sommige weer vergaan. Een van mijn ambities was om de basis te leren van HTML en CSS, persoonlijk vind ik dat ik hierin ben geslaagd. Op het begin had ik geen idee waar ik moest beginnen en dit ging stapje voor stapje beter. Hierbij moet ik natuurlijk wel zeggen dat er voor mij nog ontzettend veel te leren valt op het gebied van coderen.
+
+  Wat ik heb geleerd
+  - Coderen is minder moeilijk dan het lijkt. Stapgewijs kom je steeds verder en van fouten maken leer je, er zit logica in en voor mij was het eerst een groot raadsel.
+  - Handige tips, zoals een 'kleurpallet' toevoegen, zodat je standaard kleuren hetzelfde zijn.
 
 
   ### Dit was lastig/Is niet gelukt:
